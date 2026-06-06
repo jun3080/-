@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스피드 타자 연습기</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>⌨️ Speed Typing Test</h1>
+        <p class="description">제시된 문장을 빠르고 정확하게 입력하세요!</p>
+        
+        <div class="score-board">
+            <div class="score-item">
+                <span class="label">시간(초)</span>
+                <span id="timer" class="value">0</span>
+            </div>
+            <div class="score-item">
+                <span class="label">타수(WPM)</span>
+                <span id="wpm" class="value">0</span>
+            </div>
+            <div class="score-item">
+                <span class="label">정확도</span>
+                <span id="accuracy" class="value">100%</span>
+            </div>
+        </div>
+
+        <div id="quote-display" class="quote-box">문장을 불러오는 중...</div>
+
+        <textarea id="quote-input" placeholder="여기를 클릭하면 게임이 시작됩니다." autofocus></textarea>
+
+        <button id="restart-btn">다시 시작</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

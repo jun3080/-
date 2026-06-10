@@ -1,9 +1,9 @@
-/* 전체 레이아웃 초기화 */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Consolas', 'Courier New', Courier, monospace; /* 코딩/타자 연습 느낌의 폰트 */
+    font-family: 'Consolas', 'Courier New', Courier, monospace; 
 }
 
 body {
